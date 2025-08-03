@@ -350,24 +350,11 @@ export default function JuniormesterlaereLanding() {
                   />
                 </div>
 
-                <div className="flex items-start space-x-3">
-                  <input
-                    type="checkbox"
-                    id="terms"
-                    name="accept"
-                    className="mt-1 h-4 w-4 text-teal-600 focus:ring-teal-500 border-gray-300 rounded"
-                    required
-                  />
-                  <label htmlFor="terms" className="text-xs sm:text-sm text-white/90">
-                    Jeg accepterer{" "}
-                    <Link href="#" className="underline hover:text-white">
-                      vilkår og betingelser
-                    </Link>{" "}
-                    og{" "}
-                    <Link href="#" className="underline hover:text-white">
-                      privatlivspolitik
-                    </Link>
-                  </label>
+                <div className="text-center">
+                  <p className="text-xs sm:text-sm text-white/80" style={{ fontSize: "0.9em" }}>
+                    Ved at tilmelde dig accepterer du, at vi må bruge dine oplysninger til at sende dig information om
+                    Juniormesterlære.nu.
+                  </p>
                 </div>
 
                 <button
